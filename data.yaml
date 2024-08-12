@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Electric pole', 'Person', 'PotholeDetectionYOLOv8 Project - v1 2024-04-09 1-16pm', 'Traffic signs', 'Tree', 'Zebra crossing', 'car', 'downstairs', 'grade separation', 'sidewalk', 'sign_green', 'sign_red', 'upstairs']
+
+roboflow:
+  workspace: tictafinal
+  project: final-fxrip
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/tictafinal/final-fxrip/1
